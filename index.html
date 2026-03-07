@@ -4,107 +4,186 @@
 <head>
 
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Amaia digita</title>
+<title>Amaia Digital</title>
 
-<link rel="stylesheet" href="css/estilos.css">
+<style>
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#111;
+color:white;
+}
+
+/* HERO */
+
+.hero{
+height:100vh;
+background-image:url("img/banner.jpg");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+.overlay{
+background:rgba(0,0,0,0.6);
+padding:40px;
+border-radius:10px;
+}
+
+h1{
+font-size:42px;
+margin:0;
+}
+
+p{
+font-size:18px;
+}
+
+/* BOTONES */
+
+.boton{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#00c3ff;
+color:white;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+}
+
+.boton:hover{
+background:#009ac9;
+}
+
+/* SERVICIOS */
+
+.servicios{
+padding:60px 20px;
+text-align:center;
+background:#1b1b1b;
+}
+
+.servicios h2{
+margin-bottom:40px;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.card{
+background:#222;
+padding:25px;
+width:250px;
+border-radius:8px;
+}
+
+/* SOBRE */
+
+.sobre{
+padding:60px 20px;
+text-align:center;
+}
+
+/* WHATSAPP */
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 18px;
+border-radius:50px;
+font-weight:bold;
+text-decoration:none;
+font-size:18px;
+}
+
+</style>
+
 </head>
 
 <body>
 
-<header>
+<!-- HERO -->
+
 <section class="hero">
 
-<h2>Innovación Digital</h2>
+<div class="overlay">
 
-<p>Construimos soluciones web, apps y tecnología para el futuro.</p>
+<h1>Amaia Digital</h1>
 
-<button>Ver Servicios</button>
+<p>Automatización • Desarrollo • Soluciones Digitales</p>
+
+<a class="boton" href="#servicios">Nuestros Servicios</a>
+
+</div>
+
+</section>
+
+<!-- SERVICIOS -->
+
+<section class="servicios" id="servicios">
+
+<h2>Servicios</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Desarrollo Web</h3>
+<p>Creación de páginas web modernas y rápidas.</p>
+</div>
+
+<div class="card">
+<h3>Automatización</h3>
+<p>Sistemas automáticos para negocios digitales.</p>
+</div>
+
+<div class="card">
+<h3>Bots</h3>
+<p>Bots para WhatsApp, Telegram y atención al cliente.</p>
+</div>
+
+<div class="card">
+<h3>Sistemas</h3>
+<p>Desarrollo de sistemas y herramientas digitales.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- SOBRE -->
+
 <section class="sobre">
 
-<h2>Sobre AmaiaDigital</h2>
+<h2>Sobre Amaia Digital</h2>
 
 <p>
-AmaiaDigital es un proyecto enfocado en crear soluciones tecnológicas,
-desarrollo web y herramientas digitales para emprendedores y empresas.
-Nuestro objetivo es ayudar a transformar ideas en tecnología real.
+Creamos soluciones digitales para empresas y emprendedores.
+Desarrollo web, automatización y herramientas tecnológicas para
+hacer crecer tu negocio en internet.
 </p>
-<section class="contacto">
-
-<h2>Contacto</h2>
-
-<form>
-
-<input type="text" placeholder="Tu nombre">
-
-<input type="email" placeholder="Tu email">
-
-<textarea placeholder="Tu mensaje"></textarea>
-
-<button type="submit">Enviar</button>
-
-</form>
-
-</section>
-</section>
-</section>
-<div class="logo">
-AmaiaDigital
-</div>
-<nav>
-
-<nav>
-
-<a href="index.html">Inicio</a>
-<a href="servicios.html">Servicios</a>
-<a href="contacto.html">Contacto</a>
-
-</nav>
-</nav>
- 
-</header>
-
-<section class="hero">
-<section class="servicios">
-
-<h2>Nuestros Servicios</h2>
-
-<div class="contenedor-servicios">
-
-<div class="servicio">
-<h3>Desarrollo Web</h3>
-<p>Creación de páginas web modernas.</p>
-</div>
-
-<div class="servicio">
-<h3>Aplicaciones</h3>
-<p>Desarrollo de apps y sistemas digitales.</p>
-</div>
-
-<div class="servicio">
-<h3>Automatización</h3>
-<p>Soluciones tecnológicas para empresas.</p>
-</div>
-
-</div>
-
-</section>
-<h2>Bienvenido a Amaia digita</h2>
-
-<p>Construyendo tecnología desde cero</p>
-
-<button>Explorar</button>
 
 </section>
 
-<footer>
+<!-- BOTON WHATSAPP -->
 
-<p>© 2026 Amaia digital</p>
+<a class="whatsapp" href="https://wa.me/5493487210379" target="_blank">
+WhatsApp
+</a>
 
-</footer>
-
-<script src="js/script.js"></script>
-8
 </body>
 
 </html>
