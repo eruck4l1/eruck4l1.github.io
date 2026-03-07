@@ -73,3 +73,39 @@ width:250px;
 border-radius:10px;
 box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
+.sobre{
+padding:60px;
+background:#f4f4f4;
+text-align:center;
+}
+
+.contacto{
+padding:60px;
+text-align:center;
+}
+
+form{
+max-width:400px;
+margin:auto;
+}
+
+input, textarea{
+width:100%;
+padding:10px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+textarea{
+height:120px;
+}
+
+button{
+background:#0077ff;
+color:white;
+border:none;
+padding:12px;
+cursor:pointer;
+border-radius:5px;
+}
