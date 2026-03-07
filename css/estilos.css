@@ -27,16 +27,30 @@ font-weight:bold;
 /* HERO */
 
 .hero{
-background:#0077ff;
-color:white;
-padding:120px 20px;
+background:url('../img/banner.jpg');
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+min-height:60vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
 text-align:center;
+padding:40px 20px;
+}
+@media (max-width:768px){
+
+.hero{
+min-height:40vh;
+background-position:center;
 }
 
 .hero h2{
-font-size:40px;
+font-size:26px;
 }
 
+}
 /* SERVICIOS */
 
 .servicios{
