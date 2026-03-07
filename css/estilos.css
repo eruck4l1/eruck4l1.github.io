@@ -116,3 +116,64 @@ padding:15px;
 border-radius:50px;
 text-decoration:none;
 }
+/* PROYECTOS */
+
+.proyectos{
+padding:80px 20px;
+text-align:center;
+}
+
+.contenedor-proyectos{
+display:flex;
+gap:25px;
+justify-content:center;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.proyecto{
+background:#1e293b;
+padding:25px;
+border-radius:12px;
+width:280px;
+transition:transform 0.3s;
+}
+
+.proyecto:hover{
+transform:translateY(-8px);
+}
+
+/* RESPONSIVE CELULAR */
+
+@media (max-width:768px){
+
+.hero{
+padding:120px 20px;
+}
+
+.hero h2{
+font-size:28px;
+}
+
+.contenedor-servicios{
+flex-direction:column;
+align-items:center;
+}
+
+.contenedor-proyectos{
+flex-direction:column;
+align-items:center;
+}
+
+.servicio,
+.proyecto{
+width:90%;
+}
+
+nav{
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+}
