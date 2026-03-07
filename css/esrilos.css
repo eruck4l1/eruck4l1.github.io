@@ -1,0 +1,118 @@
+/* ESTILO GENERAL */
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#0b3d91;
+color:white;
+}
+
+/* HEADER */
+
+header{
+background:#0a2540;
+padding:20px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* HERO (BANNER) */
+
+.hero{
+background:url('../img/banner.jpg');
+background-size:cover;
+background-position:center;
+padding:150px 20px;
+text-align:center;
+}
+
+.hero h2{
+font-size:36px;
+}
+
+/* SERVICIOS */
+
+.servicios{
+padding:60px 20px;
+text-align:center;
+}
+
+.contenedor-servicios{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.servicio{
+background:white;
+color:black;
+padding:20px;
+width:250px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+/* CONTACTO */
+
+.contacto{
+padding:60px 20px;
+text-align:center;
+}
+
+form{
+max-width:400px;
+margin:auto;
+}
+
+input, textarea{
+width:100%;
+padding:10px;
+margin:10px 0;
+border-radius:5px;
+border:none;
+}
+
+/* BOTON */
+
+button{
+background:#0077ff;
+color:white;
+border:none;
+padding:12px 20px;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#0055cc;
+}
+
+/* FOOTER */
+
+footer{
+background:#0a2540;
+padding:20px;
+text-align:center;
+margin-top:40px;
+}
+
+/* WHATSAPP */
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
